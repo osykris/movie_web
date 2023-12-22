@@ -1,0 +1,46 @@
+.myBG{
+    height: 100vh;
+    background: url('../components/assets/background-landingpage.jpg');
+    background-size: cover;
+}
+
+.intro{
+    height: 300px;
+    display: flex;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.trending{
+    height: 100vh;
+    background: url('../components/assets/background-trending.jpg');
+    background-size: contain;
+}
+
+.movie{
+    height: 120vh;
+}
+
+.Movie-list{
+    padding: 40px;
+    color: black;
+}
+
+.Movie-image{
+    margin-bottom: 30px;
+}
+
+.Movie-title{
+    margin-bottom: 20px;
+}
+
+.Movie-detail{
+    background-color: whitesmoke;
+    height: 120vh;
+}

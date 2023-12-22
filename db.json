@@ -1,0 +1,56 @@
+{
+    "user": [
+      {
+        "id": "adminosy",
+        "name": "osy",
+        "password": "admin",
+        "email": "osykrisdayanti@gmail.com",
+        "phone": "085335651194",
+        "country": "singapore",
+        "address": "sin",
+        "role": "admin",
+        "gender": "female"
+      },
+      {
+        "id": "ntuser",
+        "name": "Fullname",
+        "password": "ntuser",
+        "email": "email@email.com",
+        "phone": "56778889989",
+        "country": "singapore",
+        "address": "address1\naddrees2",
+        "role": "user",
+        "gender": "male"
+      }
+    ],
+    "roleaccess": [
+      {
+        "role": "admin",
+        "menu": "customer",
+        "haveadd": true,
+        "haveedit": true,
+        "havedelete": true
+      },
+      {
+        "role": "admin",
+        "menu": "supplier",
+        "haveadd": true,
+        "haveedit": true,
+        "havedelete": true
+      },
+      {
+        "role": "user",
+        "menu": "customer",
+        "haveadd": false,
+        "haveedit": false,
+        "havedelete": false
+      },
+      {
+        "role": "user1",
+        "menu": "customer",
+        "haveadd": false,
+        "haveedit": false,
+        "havedelete": false
+      }
+    ]
+  }
